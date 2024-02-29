@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Shows ports and sockets
+# shows names of every socket
+
+netstat -l --program
