@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# put
+#   checks
+#   for address
+#+  to order
+
+file_name="apache-access.log"
+if test -f $file_name; then
+  awk '{print $1,$9}' $file_name | sort | uniq -c | sort -gr
+fi

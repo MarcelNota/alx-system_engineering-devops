@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# to display
+# for disable
+ps u | grep bash

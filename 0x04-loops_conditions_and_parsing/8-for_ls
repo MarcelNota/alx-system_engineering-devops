@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# for directory
+#   displays 
+
+lst=$(ls)
+for i in $lst; do
+  echo "$i" | cut -d '-' -f2
+done

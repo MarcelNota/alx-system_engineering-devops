@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# To show
+
+count=0
+
+while [ $count -lt 10 ]
+do
+  echo "Best School"
+  (( count++ ))
+done
